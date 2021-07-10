@@ -1,10 +1,10 @@
-const geoApiKey = "6319f5692d4f24b3dd01ad3a7c3a47b7";
+const API_KEY = "6319f5692d4f24b3dd01ad3a7c3a47b7";
 const geo = document.getElementById("geo");
 
 function geoOK(p) {
   const lat = p.coords.latitude;
   const lon = p.coords.longitude;
-  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${geoApiKey}&units=metric`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
