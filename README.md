@@ -1,0 +1,2 @@
+# JSVanillaChallenge
+Created with CodeSandbox
