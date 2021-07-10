@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="userName" class="one hidden" style="font-size: 40pt;"></h1>
+      <h2 id="date" class="seven" style=""></h2>
+      <h2 id="time" class="seven" style=""></h2>
+      <h2 class="two" style="font-size: 24pt;">Todo Today</h2>
+
+      <form id="login-form" class="three hidden">
+        <input type="text" placeholder="hello! what's your name??" required />
+        <button>login!</button>
+      </form>
+
+      <form id="todo-form" action="" class="four">
+        <input type="text" placeholder="Write a To Do & Press Enter" required />
+      </form>
+
+      <ul id="todo-list" class="five"></ul>
+      <h3 id="geo" class="geo"></h3>
+      <a class="License" href="https://pixabay.com/">
+        img by
+        <img src="img/logo_square.png" alt="Pixabay" />
+      </a>
+    </div>
+    <script src="src/background.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/time.js"></script>
+    <script src="src/login.js"></script>
+    <script src="src/weather.js"></script>
+  </body>
+</html>
